@@ -53,16 +53,17 @@ function login(){
 }
 function add(){
   var fd = new FormData();    
-  fd.append( 'file', img.files[0] );
+  fd.append( 'file', document.menu.img.files[0] );
   
   $.ajax({
-    url: '/upload.php',
+    url: 'upload.php',
     data: fd,
     processData: false,
     contentType: false,
+    enctype: 'multipart/form-data',
     type: 'POST',
     success: function(data){
-      alert(data);
+      alert('php' + data);
     }
   });
 

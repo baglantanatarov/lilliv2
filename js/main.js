@@ -21,7 +21,7 @@ var config = {
          t.forEach(element => {
             block += `
             <div class="shop">
-                <img src="${element.img}"/>
+                <div class="box-img"><img src="${element.img}"/></div>
                 <span>${element.name}</span>
                 <span>${element.price} <span>KZT</span></span>
                 <button class="add-cart"><i class="fas fa-shopping-cart"></i></button>

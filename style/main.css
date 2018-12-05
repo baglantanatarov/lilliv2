@@ -127,10 +127,12 @@ header{
     border-radius: 10px;
     overflow: hidden;
     margin-top: 10px;
-}
-    .shop img{
+}   
+    .shop .box-img{
         width: 150px;
-        height: 115px;
+    }
+    .shop img{
+        width: 100%;
     }
     .shop .add-cart{
         background: none;

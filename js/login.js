@@ -61,7 +61,7 @@ var fd = new FormData();
 fd.append( 'img', document.menu.img.files[0] );
 
 $.ajax({
-  url: 'upload.php',
+  url: '../upload.php',
   data: fd,
   processData: false,
   contentType: false,

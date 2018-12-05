@@ -161,4 +161,12 @@ header{
         display:inline-block;
         margin-right: 15px;
      }
+     .shop{
+        width: 120px;
+     }
+        .shop .box-img{
+            width: 125px;
+            height: 95px;
+            overflow: hidden;
+        }
 }

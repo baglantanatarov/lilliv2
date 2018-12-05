@@ -1,0 +1,41 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Авторизация</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="style/login.css" />
+</head>
+<body>
+
+  <div id="login_div" class="main-div">
+    <h3>Firebase Web login Example</h3>
+    <input type="email" placeholder="Email..." id="email_field" />
+    <input type="password" placeholder="Password..." id="password_field" />
+
+    <button onclick="login()">Login to Account</button>
+  </div>
+
+  <div id="user_div" class="loggedin-div">
+    <h3>Welcome User</h3>
+    <p id="user_para">Welcome to Firebase web login Example. You're currently logged in.</p>
+    <button onclick="logout()">Logout</button>
+    <div class="cart">
+      
+    </div>
+    <div class="menu">
+      <form name="menu" onsubmit="event.preventDefault();add();">
+          <input type="text" placeholder="id" name="id">
+          <input type="text" placeholder="name" name="name">
+          <input type="text" placeholder="price" name="price">
+          <input type="file" placeholder="img" name="img">
+          <button >Add</button>
+      </form>
+    </div>
+  </div>
+  <script src="https://www.gstatic.com/firebasejs/5.6.0/firebase.js"></script>
+  <script src="js/login.js"></script>
+
+</body>
+</html>

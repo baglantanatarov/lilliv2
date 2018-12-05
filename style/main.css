@@ -130,6 +130,8 @@ header{
 }   
     .shop .box-img{
         width: 150px;
+        height: 110px;
+        overflow: hidden;
     }
     .shop img{
         width: 100%;

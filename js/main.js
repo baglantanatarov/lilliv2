@@ -20,15 +20,13 @@ var config = {
          let block = '';
          t.forEach(element => {
             block += `
-            <div>
+            <div class="shop">
                 <img src="${element.img}"/>
-                <p>${element.name}</p>
-                <p>${element.price}</p>
+                <span>${element.name}</span>
+                <span>${element.price} <span>KZT</span></span>
+                <button class="add-cart"><i class="fas fa-shopping-cart"></i></button>
             </div>`;
-            document.querySelector(".test").innerHTML = block;
+            document.querySelector(".menu").innerHTML = block;
 
-         });
-
-
-           
+         });           
     });

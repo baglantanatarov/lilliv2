@@ -111,9 +111,46 @@ header{
     }
 
 article{
-    padding-top: 45px;
+    padding-top: 55px;
 }
-
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.shop{
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 14px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+    .shop img{
+        width: 150px;
+    }
+    .shop .add-cart{
+        background: none;
+        border: 1px solid #665c84;
+        border-radius: 20px;
+        outline: none;
+        font-size: 14px;
+        margin-bottom: 4px;
+        padding: 3px;
+        text-shadow: 0px 0px 2px #ffba5a;
+        color: #665c84;
+    }
+    .shop .add-cart:hover{
+        color: grey;
+    }
+    .shop .add-cart:active{
+        color: #ff7657;
+    }
 @media only screen and (max-width: 420px) {
     .nav-show {
         display: none;

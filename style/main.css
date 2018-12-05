@@ -109,11 +109,8 @@ header{
     .openMenu:active{
         color: #ff7657;
     }
-
-article{
-    padding-top: 55px;
-}
 .menu{
+    padding-top: 55px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -133,6 +130,7 @@ article{
 }
     .shop img{
         width: 150px;
+        height: 115px;
     }
     .shop .add-cart{
         background: none;

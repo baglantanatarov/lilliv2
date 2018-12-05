@@ -53,7 +53,7 @@ function login(){
 }
 function add(){
   var fd = new FormData();    
-  fd.append( 'file', input.files[0] );
+  fd.append( 'file', img.files[0] );
   
   $.ajax({
     url: '/upload.php',

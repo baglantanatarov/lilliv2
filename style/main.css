@@ -116,6 +116,13 @@ header{
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+.cart-menu{
+    padding-top: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
 .shop{
     width: 150px;
     display: flex;
